@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
 const GUILDID = '683070380663242857'; // اي دي السيرفر  
 const CHANNELID = '720383366326648912'; // اي دي الروم
 
@@ -29,3 +28,5 @@ client.channels.find(ch => ch.id === CHANNELID && ch.type === 'voice').join();
     }
   }
 });
+
+client.login(process.env.TOKEN);
