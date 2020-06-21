@@ -33,8 +33,8 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-const GUILDID = '626419404275580930'; // اي دي السيرفر  
-const CHANNELID = '694955261005135902'; // اي دي الروم
+const GUILDID = '683070380663242857'; // اي دي السيرفر  
+const CHANNELID = '720383366326648912'; // اي دي الروم
 
 client.on('ready',async () => {
   setInterval(() => {
