@@ -1,12 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
-const client = new Client({ disableEveryone: true})
-const ytdl = require("ytdl-core");
-const botversion = require('./package.json').version;
-client.login(TOKEN);
-
-
 const GUILDID = '683070380663242857'; // اي دي السيرفر  
 const CHANNELID = '720383366326648912'; // اي دي الروم
 
