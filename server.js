@@ -4,6 +4,10 @@ const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
 const GUILDID = '683070380663242857'; // اي دي السيرفر  
 const CHANNELID = '720383366326648912'; // اي دي الروم
 
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+});
+
 client.on('ready',async () => {
   setInterval(() => {
 client.channels.find(ch => ch.id === CHANNELID && ch.type === 'voice').join();
